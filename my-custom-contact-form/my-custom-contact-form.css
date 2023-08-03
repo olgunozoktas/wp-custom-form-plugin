@@ -1,0 +1,48 @@
+.mccf_form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.mccf_input,
+.mccf_textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.mccf_textarea {
+    height: 100px;
+}
+
+.mccf_button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+    display: block;
+}
+
+.mccf_button:hover {
+    background-color: #45a049;
+}
+
+.mccf_success_message {
+    color: #4CAF50;
+    background-color: #DFF2BF;
+    margin: 10px 0;
+    padding: 12px;
+    border: 1px solid #a2d246;
+    border-radius: 4px;
+}
