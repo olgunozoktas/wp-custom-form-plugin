@@ -6,8 +6,8 @@ Author: Olgun Özoktaş
 Version: 1.0
 */
 
-require_once 'installation.php';
-require_once 'submissions.php';
+require 'installation.php';
+require 'submissions.php';
 
 /**
  * In every request those hooks must be registered
